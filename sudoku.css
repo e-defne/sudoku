@@ -1,0 +1,35 @@
+.sudoku{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0;
+    background-color:blue;
+    box-sizing:content-box;
+    width: auto;
+  }
+  
+  .grid-container > input {
+    height: 55px;
+    width: 55px;
+    padding: 0 0;
+    background-color: rgba(255, 255, 255, 0.729);
+    border: 1px solid rgba(255, 255, 255, 0.738);
+    font-size: xx-large;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {  
+  -webkit-appearance: none;   margin: 0; 
+}
